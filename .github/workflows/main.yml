@@ -29,12 +29,12 @@ jobs:
       
     - uses: "marvinpinto/action-automatic-releases@latest"
       with:
+          working-directory: ./scripting/compiled
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: true
           title: "Build"
           files: |
-            LICENSE.txt
             *.smx
 
   
