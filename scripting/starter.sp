@@ -7,7 +7,7 @@ public void OnPluginStart()
 
 public Action Command_Callback(int client, int args)
 {
-	ReplyToCommand(client, "Fuck you!");
+	ReplyToCommand(client, "Hello world!");
 	
 	return Plugin_Handled;
 }
