@@ -25,4 +25,4 @@ jobs:
     - uses: actions/checkout@v1
     - name: Compile Sourcepawn
       working-directory: ./scripting
-      run: compile.exe starter.sp
+      run: ./compile.exe starter.sp
