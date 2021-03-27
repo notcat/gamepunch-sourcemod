@@ -7,7 +7,7 @@ public void OnPluginStart()
 
 public Action Command_Callback(int client, int args)
 {
-	ReplyToCommand(client, "Hello newversion!");
+	ReplyToCommand(client, "Hello from new CI/CD workflow!");
 	
 	return Plugin_Handled;
 }
